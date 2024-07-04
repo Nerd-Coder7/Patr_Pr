@@ -9,7 +9,7 @@ const FaqSection =()=>{
             <Flex justifyContent={'space-between'} alignItems={'flex-start'} gap={'50px'}>
                 <div className="w-1/2 text-white">
                     <h3 className="text-5xl leading-[60px]">Frequently asked questions</h3>
-                    <p className="leading-7 font-extralight mt-5">Haven't found what you're looking for? <Link className="font-normal">Contact us</Link></p>
+                    <p className="leading-7 font-extralight mt-5">Haven't found what you're looking for? <Link to={'/contact-us'} className="font-normal">Contact us</Link></p>
                 </div>
                 <div className="w-1/2">
                     <Accordion allowToggle color={'#fff'}>

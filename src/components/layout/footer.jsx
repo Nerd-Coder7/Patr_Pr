@@ -15,10 +15,10 @@ const Footer =()=>{
                     </div>
                     <div className="md:w-2/3">
                         <ul className="footer_menu">
-                            <li><Link to="">Features</Link></li>
-                            <li><Link to="">Pricing</Link></li>
-                            <li><Link to="">How to use</Link></li>
-                            <li><Link to="">Roadmap</Link></li>
+                            <li><Link to="/features">Features</Link></li>
+                            <li><Link to="/pricing">Pricing</Link></li>
+                            <li><Link to="/how-to-use">How to use</Link></li>
+                            <li><Link to="/roadmap">Roadmap</Link></li>
                         </ul>
                     </div>
                 </div>

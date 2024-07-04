@@ -28,7 +28,7 @@ const Suggestions2 =()=>{
                                     Find the most skilled !
                                 </li>
                             </ul>
-                            <Link to={''} className="primary-btn">try it now</Link>
+                            <Link to={'/try-now'} className="primary-btn">try it now</Link>
                         </VStack>
                     </div>
                     <div className="absolute right-0 bottom-12 max-w-[calc(100%-340px)] z-[-1]">

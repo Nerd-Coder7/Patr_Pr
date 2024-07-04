@@ -18,7 +18,7 @@ const BillingSection =()=>{
                         <p className="font-light text-white/50 text-base leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </Stack>
                     <p className="text-[88px] font-semibold leading-[88px] flex items-center mt-6"><small className="text-4xl leading-[60px] font-normal">$</small> 20</p>
-                    <Link to={''} className="primary-btn primary-btn-white !flex my-8">get started</Link>
+                    <Link to={'/get-started'} className="primary-btn primary-btn-white !flex my-8">get started</Link>
                     
                     <ul className="mt-3 billing_list">
                         <li className="flex items-start text-normal gap-4 font-light">
@@ -41,7 +41,7 @@ const BillingSection =()=>{
                         <p className="font-light text-white/50 text-base leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </Stack>
                     <p className="text-[88px] font-semibold leading-[88px] flex items-center mt-6"><small className="text-4xl leading-[60px] font-normal">$</small> 90</p>
-                    <Link to={''} className="primary-btn primary-btn-white !flex my-8">get started</Link>
+                    <Link to={'/get-started'} className="primary-btn primary-btn-white !flex my-8">get started</Link>
                     
                     <ul className="mt-3 billing_list">
                         <li className="flex items-start text-normal gap-4 font-light">
@@ -64,7 +64,7 @@ const BillingSection =()=>{
                         <p className="font-light text-white/50 text-base leading-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </Stack>
                     <p className="text-[88px] font-semibold leading-[88px] flex items-center mt-6 opacity-0 invisible"><small className="text-4xl leading-[60px] font-normal">$</small> 20</p>
-                    <Link to={''} className="primary-btn my-8 !flex">contact us</Link>
+                    <Link to={'/contact-us'} className="primary-btn my-8 !flex">contact us</Link>
                     
                     <ul className="mt-3 billing_list">
                         <li className="flex items-start text-normal gap-4 font-light">
@@ -83,7 +83,7 @@ const BillingSection =()=>{
                 </div>
             </div>
             <div className="text-center mt-20">
-                <Link className="text-white font-source uppercase font-bold text-xs tracking-[0.42px] underline" to={''}>see the full details</Link>
+                <Link className="text-white font-source uppercase font-bold text-xs tracking-[0.42px] underline" to={'/all-details'}>see the full details</Link>
             </div>
         </div>
     )

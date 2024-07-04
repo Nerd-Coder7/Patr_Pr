@@ -1,13 +1,18 @@
+import React, { Suspense, lazy } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import LandingPage from "./pages/landing";
+import FallbackLoading from "./loader/fallback-loading";
+
+const LandingPage = lazy(() => import("./pages/landing"));
 
 function App() {
     return (
         <div className="App">
-            <Routes>
-                <Route path="/" exact={true} element={<LandingPage />} />
-            </Routes>
+                <Suspense fallback={<FallbackLoading/>}>
+                    <Routes>
+                        <Route path="/" element={<LandingPage />} />
+                    </Routes>
+                </Suspense>
         </div>
     );
 }

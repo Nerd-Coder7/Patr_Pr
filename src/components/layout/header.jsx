@@ -1,7 +1,7 @@
 import { Flex, Image } from "@chakra-ui/react";
-import React from "react";
+import React, { lazy } from "react";
 import { Link } from "react-router-dom";
-import PlusIcon from "../landing-page/plus-icon";
+const PlusIcon = lazy(() => import("../landing-page/plus-icon"));
 
 const Header =()=>{
     return(
@@ -19,16 +19,16 @@ const Header =()=>{
                             <div className="w-4/5">
                                 <ul className="flex tracking-[0.42px] text-xs leading-5 font-semibold items-center gap-10 2xl:gap-20 justify-center text-white/50">
                                     <li>
-                                        <Link to={''}>ABOUT US</Link>
+                                        <Link to={'/about-us'}>ABOUT US</Link>
                                     </li>
                                     <li>
-                                        <Link to={''}>FEATURES</Link>
+                                        <Link to={'/features'}>FEATURES</Link>
                                     </li>
                                     <li>
-                                        <Link to={''}>SOLUTIONS</Link>
+                                        <Link to={'/solutions'}>SOLUTIONS</Link>
                                     </li>
                                     <li>
-                                        <Link to={''}>PRICING</Link>
+                                        <Link to={'/pricing'}>PRICING</Link>
                                     </li>
                                 </ul>
                             </div>

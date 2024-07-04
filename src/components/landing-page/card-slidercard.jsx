@@ -19,7 +19,7 @@ const CardSliderCard =()=>{
                                 <span className="flex items-center justify-center w-12 h-12 rounded-xl bg-[#FFC876]">
                                     <img alt="img" src="images/landing-page/card-logo-1.svg" />
                                 </span>
-                                <Link className="uppercase font-source font-bold text-xs leading-5 tracking-[0.42px] flex items-center gap-5" to={''}>
+                                <Link className="uppercase font-source font-bold text-xs leading-5 tracking-[0.42px] flex items-center gap-5" to={'/explore'}>
                                     explore more
                                     <span className="flex items-center justify-center">
                                     <FaChevronRight />

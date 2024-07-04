@@ -16,7 +16,7 @@ const CtaSection =()=>{
                         <span className="highlight_text relative text-7xl">PATR</span>
                     </h3>
                     <p className="text-xl leading-8 mt-10 text-[#757185]">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    <Link className="primary-btn primary-btn-white mt-10">Get started</Link>
+                    <Link to={'/get-started'} className="primary-btn primary-btn-white mt-10">Get started</Link>
                 </div>
             </div>
         </>

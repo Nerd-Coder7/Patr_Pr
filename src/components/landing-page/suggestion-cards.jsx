@@ -23,7 +23,7 @@ const SuggestionCard =({ques})=>{
                         Find the most skilled !
                     </li>
                 </ul>
-                <Link to={''} className="primary-btn">see how it work</Link>
+                <Link to={'/how-it-works'} className="primary-btn">see how it work</Link>
             </VStack>
         </div>
     )
